@@ -12,6 +12,9 @@ import Topup from "./screens/Topup";
 import Send from "./screens/Send";
 import Cards from "./screens/Cards";
 import Transactions from "./screens/Transactions";
+import Profile from "./screens/Profile";
+import Security from "./screens/Security";
+import Referrals from "./screens/Referrals";
 
 export type RootStackParamList = {
   Navigation: undefined;
@@ -23,6 +26,9 @@ export type RootStackParamList = {
   Cards: undefined;
   Transactions: undefined;
   Main: undefined;
+  Profile: undefined;
+  Referrals: undefined;
+  Security: undefined;
 };
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -46,7 +52,9 @@ export default function App() {
         <Stack.Screen component={Register} name="Register" />
         <Stack.Screen component={Transactions} name="Transactions" />
         <Stack.Screen component={Navigation} name="Navigation" />
-        <Stack.Screen component={Main} name="Main" />
+        <Stack.Screen component={Profile} name="Profile" />
+        <Stack.Screen component={Security} name="Security" />
+        <Stack.Screen component={Referrals} name="Referrals" />
       </Stack.Navigator>
     </NavigationContainer>
   );

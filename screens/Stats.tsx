@@ -3,7 +3,7 @@ import React from "react";
 
 const Stats = () => {
   return (
-    <SafeAreaView className="py-5">
+    <SafeAreaView className="py-7">
       <Text className="text-2xl font-bold px-5">Statistics</Text>
     </SafeAreaView>
   );
