@@ -22,10 +22,10 @@ const Item = ({ text, screen }: { text: string; screen: string }) => {
   return (
     <View className="flex-row mt-5 my-5 gap-2 items-center">
       <View>{getIcon(screen)}</View>
-      <Text className="flex-1 text-2xl ">{text}</Text>
-
+      <Text className="flex-1 text-2xl font-reg ">{text}</Text>
+      {/*@ts-ignore*/}
       <TouchableOpacity onPress={() => navigator.navigate(screen)}>
-        <ArrowRight2 />
+        <ArrowRight2 color="#6E34B8" />
       </TouchableOpacity>
     </View>
   );

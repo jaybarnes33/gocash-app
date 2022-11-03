@@ -7,7 +7,7 @@ const Settings = () => {
   const settings = ["Profile", "Security", "Referrals"];
   return (
     <SafeAreaView className="py-7">
-      <Text className="text-3xl font-bold px-5">Settings</Text>
+      <Text className="text-3xl font-semi px-5">Settings</Text>
       <View className="px-5 mt-4">
         {settings.map((setting) => (
           <Item text={setting} key={setting} screen={setting} />
