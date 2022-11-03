@@ -5,6 +5,9 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import React from "react";
 import Main from "../screens/Main";
 import { Chart2, Notification, Setting, Wallet2 } from "iconsax-react-native";
+import Stats from "../screens/Stats";
+import Settings from "../screens/Settings";
+import Notifications from "../screens/Notifications";
 
 const Tab = createBottomTabNavigator();
 const Navigation = () => {
@@ -60,9 +63,9 @@ const Navigation = () => {
       })}
     >
       <Tab.Screen name="Home" component={Main} />
-      <Tab.Screen name="Stats" component={Main} />
-      <Tab.Screen name="Notifications" component={Main} />
-      <Tab.Screen name="Settings" component={Main} />
+      <Tab.Screen name="Stats" component={Stats} />
+      <Tab.Screen name="Notifications" component={Notifications} />
+      <Tab.Screen name="Settings" component={Settings} />
     </Tab.Navigator>
   );
 };

@@ -7,7 +7,7 @@ import useNav from "../hooks/useNav";
 const Trans = () => {
   const { navigator } = useNav();
   return (
-    <SafeAreaView className="bg-white flex-1">
+    <SafeAreaView className="bg-white flex-1 py-3">
       <TouchableOpacity
         className="absolute top-[45] px-4 z-10"
         onPress={() => navigator.navigate("Navigation")}
