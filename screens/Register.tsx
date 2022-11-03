@@ -21,8 +21,8 @@ const Register = ({
   };
 
   return (
-    <SafeAreaView className="bg-white flex-1">
-      <Text className="mt-5 text-center text-lg px-5 font-semi ">
+    <SafeAreaView className="bg-white flex-1 py-8">
+      <Text className="mt-5 text-center text-2xl px-5 font-semi ">
         Immediately Feel The Ease of Transacting Just by Registering
       </Text>
 
@@ -33,7 +33,7 @@ const Register = ({
         <Call color="#6E34B8" />
         <TextInput
           placeholder="Phone Number"
-          className="p-3 text-lg font-reg "
+          className="p-3 text-lg font-reg flex-1"
         />
       </View>
       <View
@@ -41,14 +41,20 @@ const Register = ({
         className="bg-[#F2F2F2] m-3  flex-row items-center px-2"
       >
         <Message color="#6E34B8" />
-        <TextInput placeholder="Email" className="p-3 text-lg font-reg" />
+        <TextInput
+          placeholder="Email"
+          className="p-3 text-lg font-reg flex-1"
+        />
       </View>
       <View
         style={{ borderRadius: 10 }}
         className="bg-[#F2F2F2] m-3  flex-row items-center px-2"
       >
         <PasswordCheck color="#6E34B8" />
-        <TextInput placeholder="Password" className="p-3 text-lg font-reg" />
+        <TextInput
+          placeholder="Password"
+          className="p-3 text-lg font-reg flex-1"
+        />
       </View>
       <View style={{ borderRadius: 10 }} className="flex-row justify-center">
         <TouchableOpacity

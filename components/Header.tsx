@@ -9,7 +9,7 @@ const Header = () => {
         <Text className="font-bold text-2xl font-bolder">Wallet</Text>
       </View>
       <View>
-        <Text className="font-semib]old text-gray-400">Active</Text>
+        <Text className="font-semibold text-gray-400">Active</Text>
       </View>
     </View>
   );

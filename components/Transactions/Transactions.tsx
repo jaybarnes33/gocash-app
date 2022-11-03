@@ -37,7 +37,7 @@ const Transactions = () => {
   ];
   return (
     <View className="px-5 my-10">
-      <View className="flex-row justify-between items-center flex-1 absolute w-full top-[-15] left-5 bg-white">
+      <View className="flex-row justify-between items-center flex-1 absolute w-full top-[-25] left-5 bg-white">
         <Text className="text-xl font-semi">Transactions</Text>
         <Text className="font-semi">View all</Text>
       </View>

@@ -49,7 +49,7 @@ const Navigation = () => {
           position: "absolute",
           width: "90%",
           margin: "5%",
-          paddingTop: Platform.OS === "ios" ? "7%" : "unset",
+          paddingTop: Platform.OS === "ios" ? "7%" : "0%",
           height: 70,
           backgroundColor: "#2F1155",
           borderRadius: 50,

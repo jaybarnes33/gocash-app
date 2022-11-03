@@ -22,6 +22,7 @@ export type RootStackParamList = {
   Topup: undefined;
   Cards: undefined;
   Transactions: undefined;
+  Main: undefined;
 };
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -45,6 +46,7 @@ export default function App() {
         <Stack.Screen component={Register} name="Register" />
         <Stack.Screen component={Transactions} name="Transactions" />
         <Stack.Screen component={Navigation} name="Navigation" />
+        <Stack.Screen component={Main} name="Main" />
       </Stack.Navigator>
     </NavigationContainer>
   );

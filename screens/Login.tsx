@@ -21,9 +21,9 @@ const Login = ({
   };
 
   return (
-    <SafeAreaView className="bg-white flex-1">
+    <SafeAreaView className="bg-white flex-1 py-8">
       <Text
-        className="mt-5 text-center text-lg px-5 font-semi "
+        className="mt-5 text-center text-2xl px-5 font-semi "
         style={{ fontFamily: "PoppinsSemi" }}
       >
         Welcome Back to GoCash
@@ -32,9 +32,9 @@ const Login = ({
       <View className="bg-[#F2F2F2] m-3  flex-row items-center px-2">
         <User color="#6E34B8" />
         <TextInput
-          placeholder="Phone Number"
-          className="p-3 text-lg"
-          style={{ fontFamily: "PoppinsReg", borderRadius: 10 }}
+          placeholder="Phone"
+          className="p-3 text-lg flex-1"
+          style={{ fontFamily: "PoppinsReg" }}
         />
       </View>
 
@@ -42,13 +42,13 @@ const Login = ({
         <PasswordCheck color="#6E34B8" />
         <TextInput
           placeholder="Password"
-          className="p-3 text-lg"
-          style={{ fontFamily: "PoppinsReg", borderRadius: 10 }}
+          className="p-3 text-lg flex-1"
+          style={{ fontFamily: "PoppinsReg" }}
         />
       </View>
       <View className="flex-row justify-center">
         <TouchableOpacity
-          className="bg-[#6E34B8] p-3  w-[170] flex-row justify-center"
+          className="bg-[#6E34B8] p-3  w-[120] flex-row justify-center"
           onPress={handlePress}
           style={{ borderRadius: 10 }}
         >
